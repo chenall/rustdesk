@@ -47,7 +47,7 @@ use hbb_common::{
     bail,
     config::{
         self, Config, LocalConfig, PeerConfig, PeerInfoSerde, Resolution, CONNECT_TIMEOUT,
-        PUBLIC_RS_PUB_KEY,READ_TIMEOUT, RELAY_PORT, RENDEZVOUS_PORT, RENDEZVOUS_SERVERS,
+        READ_TIMEOUT, RELAY_PORT, RENDEZVOUS_PORT, RENDEZVOUS_SERVERS,
     },
     get_version_number, log,
     message_proto::{option_message::BoolOption, *},
